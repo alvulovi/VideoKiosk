@@ -1,0 +1,27 @@
+<Extensions>
+  <Version>1.7</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>speed_dial</PanelId>
+    <Origin>local</Origin>
+    <Type>Home</Type>
+    <Icon>Camera</Icon>
+    <Color>#30D557</Color>
+    <Name>Video call</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Dialing</Name>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>text</WidgetId>
+          <Name>Calling support</Name>
+          <Type>Text</Type>
+          <Options>size=4;align=center;fontSize=normal</Options>
+        </Widget>
+      </Row>
+      <PageId>speed_dial</PageId>
+      <Options>hideRowNames=1</Options>
+    </Page>
+  </Panel>
+</Extensions>
